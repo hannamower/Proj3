@@ -1,0 +1,179 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  border-left: none;
+  border-right: none;
+
+  /*border: 1px solid red;*/
+}
+
+
+/****GLOBAL COLOR AND SPACING***/
+
+main {
+  max-width: 90%;
+  margin: auto;
+}
+
+p, label {
+  font-size: .75em;
+}
+
+p {
+ 
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+#main-header {
+  background: #2a2a2a;
+  padding: 1em 0;
+  margin-top: 0;
+  color: white;
+  text-align:center;
+}
+
+.intro {
+  padding: 0 0 1.5px 0;
+  text-align: center;
+  border-bottom: 1.5px solid black;
+}
+
+.intro p {
+  padding-bottom: 3px;
+  border-bottom: 3px solid black;
+  max-width: 100%;
+
+}
+
+.contact {
+  padding-top: 1em;
+}
+
+h2 {
+  color: #2a2a2a;
+  padding: 1em 0;
+}
+
+input {
+  margin: .5em 0 1em 0;
+  padding: .75em 0;
+  border-radius: 5%;
+  background: lightgrey;
+  width: 100%;
+}
+
+#state {
+  border: 1px solid black;
+  margin-bottom: 1em;
+  background: lightgrey;
+}
+
+.light{ 
+  display: inline-block;
+}
+
+[id$='_select']{
+width: 5%;
+display: inline;
+float: left;
+margin: 2px 0 2px 0
+}
+
+[id$='_format']{
+width: 5%;
+display: inline;
+float: left;
+margin: 2px 0 2px 0
+}
+
+.format {
+  margin-top: 2em;
+}
+
+
+#labelwhat {
+  margin-top: 2em;
+}
+
+ #whatelse {
+  margin-top: 1em;
+  min-width: 100%;
+  background: lightgrey;
+  min-height: 6em;
+}
+
+/***Button*****/
+
+#button {
+  background-color: #00cdcd;
+  font-size: 1em;
+  color: white;
+  display: block;
+  max-height: 15%;
+  width: 100%;
+  margin-top: .75em;
+  margin-bottom: .5em;
+  
+}
+
+input:target {
+  border: 2px solid #00004d;
+}
+
+/**Newsletter Formats**/
+
+.labelletter {
+  margin-bottom: 1em;
+}
+
+.letter {
+  border-bottom: none;
+}
+
+/***footer***/
+
+
+
+.foot p {
+  color: lightgrey;
+  font-style: italic;
+  display: block;
+  Width: 75%;
+  margin: 0 auto;
+  align-content: center;
+  padding-bottom: 2em;
+}
+
+/**media queries**/
+
+@media screen and (min-width: 768px) {
+    
+ 
+  
+  #main-header {
+    padding: .25em 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: 1.5em;
+    
+  }
+  
+  fieldset {
+    width: 70%;
+    margin: auto;
+  }
+    
+  footer {
+    width: 30%;
+    margin: auto;
+  }
+  
+}  
+    
